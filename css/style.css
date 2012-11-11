@@ -1,3 +1,6 @@
+body {
+	background:url(../img/furley_bg.png);
+}
 .name {
 	text-align: center;
 }
