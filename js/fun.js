@@ -1,8 +1,8 @@
-$('div.span12.name').hover(function() {
+$('div.span12.name').mouseover(function() {
 
   var lname = $('.last'),
       fname = $('.first');
-      
+
   if (lname.css('margin-top', '0')) {
       lname.animate({
         'margin-top' : '+=30',
