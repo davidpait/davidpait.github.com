@@ -1,4 +1,4 @@
-$('div.span12.name').mouseover(function() {
+$('button.party').on('click', function() {
 
   var lname = $('.last'),
       fname = $('.first');
