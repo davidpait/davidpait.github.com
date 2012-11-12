@@ -1,6 +1,6 @@
-$('div.name').hover(function() {
+$('div.span12.name').hover(function() {
   $('.last').animate({
-    top : '+=30',
+    'margin-top' : '+=30',
     'color' : '#ccc'
   });
   $('.first').animate({
@@ -8,7 +8,7 @@ $('div.name').hover(function() {
   });
 }, function() {
    $('.last').animate({
-    top : 0,
+    'margin-top' : '0px',
      left : 0
     
   });
