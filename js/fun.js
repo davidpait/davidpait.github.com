@@ -3,7 +3,7 @@ $('div.span12.name').mouseover(function() {
   var lname = $('.last'),
       fname = $('.first');
 
-  if (lname.css('margin-top', '0')) {
+  if (lname.css('margin-top') == '30px') {
       lname.animate({
         'margin-top' : '+=30',
         'color' : '#ccc',
